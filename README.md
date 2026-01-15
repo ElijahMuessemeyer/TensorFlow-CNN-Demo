@@ -1,5 +1,9 @@
 # TensorFlow CNN Demo
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
+
 A hands-on demonstration of Convolutional Neural Networks (CNNs) for handwritten digit recognition using TensorFlow and the MNIST dataset.
 
 ## Overview
