@@ -1,0 +1,70 @@
+===============================================
+   TENSORFLOW DEMO - QUICK START GUIDE
+===============================================
+
+YOUR SETUP IS COMPLETE!
+
+Installed:
+  - TensorFlow 2.20.0
+  - Jupyter Notebook
+  - Matplotlib (for visualizations)
+  - NumPy, Keras (included with TensorFlow)
+
+-----------------------------------------------
+HOW TO START JUPYTER NOTEBOOK
+-----------------------------------------------
+
+Option 1 (Easiest): Double-click start_jupyter.command in Finder
+   (You may need to right-click → Open the first time)
+
+Option 2 (Terminal):
+   cd ~/tensorflow-demo
+   source venv/bin/activate
+   jupyter notebook
+
+Your browser will open automatically to Jupyter.
+
+-----------------------------------------------
+FIRST STEPS
+-----------------------------------------------
+
+1. Click on "01_verify_setup.ipynb" to verify everything works
+2. Run each cell with Shift+Enter
+
+-----------------------------------------------
+DOWNLOADING AN EXAMPLE
+-----------------------------------------------
+
+1. Go to: https://github.com/aymericdamien/TensorFlow-Examples/tree/master/tensorflow_v2
+
+2. Recommended beginner examples:
+   - notebooks/2_BasicModels/linear_regression.ipynb
+   - notebooks/3_NeuralNetworks/neural_network.ipynb
+   - notebooks/3_NeuralNetworks/convolutional_network.ipynb
+
+3. Click on the example → Click "Raw" button → Right-click → "Save As"
+   Save to: ~/tensorflow-demo/
+
+4. Open the downloaded notebook in Jupyter and run through it!
+
+-----------------------------------------------
+IMPORTANT: KERNEL SELECTION
+-----------------------------------------------
+
+When opening notebooks, make sure the kernel is set to:
+   "Python (TensorFlow)"
+
+If not, go to: Kernel → Change Kernel → Python (TensorFlow)
+
+-----------------------------------------------
+TROUBLESHOOTING
+-----------------------------------------------
+
+If you see "ModuleNotFoundError: No module named 'tensorflow'":
+   → Change kernel to "Python (TensorFlow)"
+
+If Jupyter won't start:
+   → Open Terminal
+   → Run: cd ~/tensorflow-demo && source venv/bin/activate && jupyter notebook
+
+===============================================
